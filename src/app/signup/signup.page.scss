@@ -1,0 +1,45 @@
+ion-content{
+    ion-card{
+        margin-top: 23%;
+        form{
+            display: block;
+            width: 100%;
+            height: auto;
+            ion-list{
+                ion-list-header{
+                    ion-label{
+                        display: block;
+                        text-align: center;
+                    }
+                }
+                ion-item{
+                    margin-bottom: 20px;
+                    ion-icon{
+                        margin-right: 1px;
+                        padding: 10px;
+                    }
+                    ion-input{
+                        display: block;
+                        padding-left: 10px;
+                    }
+                }
+            }
+            p{
+                display: block;
+                font: 1.3rem bold;
+                color: #fff;
+            }
+            a{
+                display: block;
+                margin-left: 20px;
+                text-decoration: none;
+                color: red;
+            }
+
+            ion-button{
+                margin: 1px 20px 20px 20px;
+                color: #fff;
+            }
+        }
+    }
+}
